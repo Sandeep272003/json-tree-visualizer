@@ -1,14 +1,13 @@
 {
   "name": "json-tree-visualizer",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": true,
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "postinstall": "chmod +x node_modules/.bin/vite || true"
-}
-,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "dagre": "^0.8.5",
     "html-to-image": "^1.11.11",
